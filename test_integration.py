@@ -40,10 +40,10 @@ import numpy as np
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
-INPUT_IMAGE_DIR = os.path.join(PROJECT_ROOT, "LFR_SIMPLE", "input_Image")
-REFERENCE_IMG   = os.path.join(PROJECT_ROOT, "LFR_SIMPLE", "results",
+INPUT_IMAGE_DIR = os.path.join(PROJECT_ROOT, "input_Image")
+REFERENCE_IMG   = os.path.join(PROJECT_ROOT, "results",
                                 "integrals", "integral.png")
-ZERO_PLANE_OBJ  = os.path.join(PROJECT_ROOT, "LFR_SIMPLE", "zero_plane.obj")
+ZERO_PLANE_OBJ  = os.path.join(PROJECT_ROOT,  "zero_plane.obj")
 OUTPUT_DIR      = os.path.join(SCRIPT_DIR, "results", "integrals")
 
 # Add cv-impl to path so local modules can be imported
